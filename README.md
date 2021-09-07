@@ -6,5 +6,5 @@ v1.1 - Made the JavaScript code much shorter and easier to customize (131 lines 
 v1.0 - Release
 
 # Download previous versions
-v1.0 - https://bit.ly/3jTxnVA
-v1.1 - https://bit.ly/2X10uxi
+v1.0 - https://bit.ly/3jTxnVA<br>
+v1.1 - https://bit.ly/2X10uxi<br>
