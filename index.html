@@ -1,6 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <title>Magic 8 Ball</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,20 +14,44 @@
 <body>
 
 <div class="container">
+<div class="alert alert-secondary alert-dismissible fade show">
   <h2>Magic 8 Ball</h2><br>
   <label for="fname">Ask your question:</label><br>
-  <input type="text" id="fname" name="fname" value="" placeholder="Will I be successfull?">
+  <input type="text" id="1" name="fname" value="" placeholder="Will I be successfull?">
   <button type="button"id = "69"class="btn btn-success">Ask</button>
   <button type="button"onclick="window.location.href='https://github.com/NotFrindow/Magic8Ball'"class="btn btn-info">Source Code</button>
-  <p id = "420"></p>
-</div>
+  <p id = "420">Type your question and press ask!</p>
 
+  <a href="https://twitter.com/FrindowYT?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @FrindowYT</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+</div>
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+        Update Log
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse hide" data-parent="#accordion">
+      <div class="card-body">
+        v1.2 - Added emojis so you can easily see if you got yes, no, or maybe, added the update log, added a grey background for where you ask your question, and added the text that says "Type your question and press ask!"<br>
+        v1.1 - Made the JavaScript code much shorter and easier to customize (131 lines -> 26 lines) <br>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
 
 
 <!DOCTYPE html>
 <html>   
+        <style>
+        body{
+        padding:10% 3% 10% 3%;
+        text-align:center;
+        }
+    </style>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -34,5 +60,3 @@
   </head>
   <body>
     <script src="script.js"></script>
-  </body>
-</html>
